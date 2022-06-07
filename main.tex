@@ -1,0 +1,311 @@
+%-------------------------
+% Resume in Latex
+% Author : Ali Nemati
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Ali Nemati} & Email : \href{mailto:aliemati1983@gmail.com}{\color{blue}{Aliemati1983@gmail.com}}\\
+ % \href{https://www.linkedin.com/in/ali-nemati/}{https://www.linkedin.com/in/ali-nemati/} & Mobile : +1 (971) 400 2132 \\
+  
+  \href{https://anemati45.wixsite.com/alinemati}{\color{blue}{Anemati45.wixsite.com/alinemati}} &     \href{https://scholar.google.com/citations?hl=en&user=isqivzYAAAAJ&view_op=list_works&sortby=pubdate}{\color{blue}{Ali Nemati Google Scholar}} \\
+   \textbf{US Citizenship} & Mobile : +1 (971) 400 2132 \\
+  \textbf{Skype ID: }{Ali.nemati63} & \href{https://www.linkedin.com/in/ali-nemati/}{\color{blue}{Linkedin}}
+  \\
+  \textbf{}{} {Date of Document: \today}
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{  \textbf{ EDUCATION}  }
+  \resumeSubHeadingListStart
+     \resumeSubheading
+               {University of Wisconsin Milwaukee}{}
+      {PhD. Biomedical Health Informatics}{Jan. 2022 -- Jun. 2026}
+      
+      {Thesis: Using BERT to understand clinical trial eligibility criteria (free-text criteria) and generate judgment of
+patients’ eligibility for trials}
+      
+      
+     \resumeSubheading
+      {University of Washington}{}
+      {Master of Science in Computer Science and Systems }{Sep. 2017 -- Jun. 2019}
+      
+      {Thesis: Brain Tumor Image Segmentation via Transfer Learning.}
+ 
+   
+
+  \resumeSubHeadingListEnd
+%----------------research interest areas------------------
+\section{\textbf{FOCUS AREA}}
+\begin{itemize}
+\item Knowledge of advanced statistical techniques and concepts (regression, properties of distributions, statistical tests and proper usage, etc.) and experience with applications.
+ \item Knowledge of a variety of machine learning techniques (clustering, decision tree learning, artificial neural networks, etc.) and their real-world advantages/drawbacks.
+
+\item Running language models to do tasks question answering, fill-mask, text classification and summarization
+\item Implementing machine learning techniques and optimization methods (e.g., scalable clustering and data summarization)
+\item Applying Statistical metrics of machine learning model (e.g., proving  guarantees on  performance)
+\item  Generative modeling and neural networks (e.g., Feature selection and feature extraction) 
+\item Visualize partitioning and approximation algorithms to represent the big data (e.g., spectral clustering and related methods)
+\item Randomized and reduced numerical linear algebra (e.g., randomized SVD and PCA)
+\item Exploring imbalanced and extract pattern of data (e.g., improving robustness and performance of existing methods) 
+
+\end{itemize}
+
+%-----------EXPERIENCE-----------------
+\section{ \textbf{ EXPERIENCE }}
+
+  \resumeSubHeadingListStart
+  % -----------------Job 0
+      \resumeSubheading 
+      {Medical College of Wisconsin }{ Wauwatosa , WI, USA}
+      {Data Engineer }{Nov. 2020 - May 2022}
+      \textbf{Independently designs, implements, develops, maintains complex, and integrates data sources consistent with business requirements and processes on DataShare.}
+
+- The diagnosis of Covid 19 and the need to stay in the hospital utilizing the clinical blood draw may be found at 134 hospitals throughout the state of Wisconsin.
+
+  -  Participating with REDRIRCT team as a data analysis to explore data to the team
+
+   -   Biweekly interpreting, analyzing, and reporting Homicides and Nonfatal Shooting Dashboards\hspace*{0pt}\hfill
+    {\color{blue}\href{https://www.mcw.edu/departments/epidemiology/research/milwaukee-homicide-review-commission/reports/dashboards}{ Link}}
+    
+    - Daily interpreting, analyzing, and reporting Milwaukee County COVID-19 Daily Data
+
+- DataShare REDIRECT Pilot Data Integration
+      
+      
+      
+ 
+  % -----------------Job 1
+      \resumeSubheading 
+      {Kohls Innovation Center }{ Menomonee Falls, WI, USA}
+      {Data Scientist}{Jan. 2020 - July. 2020}
+      
+      \textbf{- Safety Stock and Top Store Projects:}{  Created Python Scripts to automate pulling data from different Data sources for data-analysis.
+      
+      \textbf{Implemented Machine Learning} models and application that predicts and recommends levels of safety-stock and top store based on the percentage chance of an order being canceled.}
+    %----------- Job 2
+
+    \resumeSubheading
+      {University of Washington}{Tacoma, USA}
+      {Student Instructor and Lab Assistant}{Sep. 2018 - Jun 2019}
+      
+       \textbf{- Center for Business Analytics: }{  Responsible for teaching students the various business tools used for Analytics such as \textbf{Tableau, Power BI, and AWS Databricks}.}
+
+
+    %----------- Job 3
+    \resumeSubheading
+      {Auckland University of Technology}{ Auckland , New Zealand}
+      {Research collaboration}{Jan. 2017 - Dec 2019}
+      
+       \textbf{- Researching on Glaucoma Disease:}{  The role is cleaning, wrangling data, interpret data and build models using a combination of machine learning algorithms and data. Collaborating with Tennessee University in order to prove our results to publish our paper. }
+       
+
+ 
+  \resumeSubHeadingListEnd
+%-----------Real Time project-----------------
+\section{\textbf{PROJECTS}}
+
+
+\resumeSubHeadingListStart
+
+
+
+
+  \item {\textbf{ Chronic Kidney Disease can be affected by high blood pressure :}{ The relationship between High Blood Pressure and Chronic Kidney Disease is investigated by using statistical interpretation and multiple linear regression. Shiny App}}\hspace*{0pt}\hfill
+    {\color{blue}\href{https://alinemati.shinyapps.io/CKD-App-main/}{\color{blue} Link}}
+    
+     \item {\textbf{2022  BC Liquor store prices Shiny App}}
+  \hspace*{0pt}\hfill {\href{https://alinemati.shinyapps.io/bcl_new_update/}{ \color{blue} Link}}
+  
+  
+   \item {\textbf{Prediction of Loan Default: }}{Using Tune voter traditional machine learning and Artificial neural network models }
+  \hspace*{0pt}\hfill {\href{https://drive.google.com/drive/u/0/folders/13F7ay8FIyjNs6nrtiaTEXjcNOgpWVFGj}{ \color{blue} Link}}
+
+  \resumeSubHeadingListEnd
+
+%-----------Publications-----------------
+\section{\textbf{ PUBLICATIONS}}
+
+\begin{enumerate}
+    \item[2021]  Norouzifard, M., \textbf{Nemati, A.}, Mollaee, S.,Gholamhosseini H., Black, J., Thompson B, and Turuwhenua J,.  A Comparison of Approaches for Synchronizing Events in Video Streams Using Audio. Submitted THE INTERNATIONAL SYMPOSIUM ON GEOMETRY AND VISION. \hspace*{0pt}\hfill {\color{blue}\href{http://dx.doi.org/10.1007/978-3-030-72073-5_20}{ Link}}
+    
+    \item[2019] Norouzifard, M., \textbf{Nemati, A.}, Klette, R., GholamHosseini, H., Nouri-Mahdavi, K., \& Yousefi, S. (2019). A hybrid machine learning model to detect glaucoma using retinal nerve fiber layer thickness measurements. Investigative Ophthalmology \& Visual Science, 60(9), 3924-3924. \hspace*{0pt}\hfill {\color{blue}\href{https://iovs.arvojournals.org/article.aspx?articleid=2746956}{ Link}}
+    
+   \item[2019] Norouzifard, M., \textbf{Nemati, A.}, Klette, R., GholamHosseini, H., Nouri-Mahdavi, K., \& Yousefi, S. (2019). A Fused Pattern Recognition Model to Detect Glaucoma Using Retinal Nerve Fiber Layer Thickness Measurements, Image and Video Technology (pp.1-12)(2019).\hspace*{0pt}\hfill {\color{blue}\href{https://www.springerprofessional.de/en/a-fused-pattern-recognition-model-to-detect-glaucoma-using-retin/17379584}{ Link}}
+    
+    \item[2019] Norouzifard, M., \textbf{Nemati, A.}, Klette, R., GholamHossieni, H., Nouri-Mahdavi, K., \& Yousefi, S. (2019). Identification of clinically relevant glaucoma biomarkers on fundus images using deep learning. Investigative Ophthalmology \& Visual Science, 60(11), PB090-PB090.\hspace*{0pt}\hfill {\color{blue}\href{https://iovs.arvojournals.org/article.aspx?articleid=2748168}{ Link}}
+    
+    
+    
+    \item[2018] Norouzifard M., \textbf{Nemati, A.} , Abdul-Rahman A., GholamHosseini H., Klette R. (2019) A Comparison of Transfer Learning Techniques, Deep Convolutional Neural Network and Multilayer Neural Network Methods for the Diagnosis of Glaucomatous Optic Neuropathy. In: Chang CY., Lin CC., Lin HH. (eds) New Trends in Computer Technologies and Applications. ICS 2018. Communications in Computer and Information Science, vol 1013. Springer, Singapore.\hspace*{0pt}\hfill
+    {\color{blue}\href{http://dx.doi.org/10.1007/978-981-13-9190-3_69}{ Link}}
+    
+    
+    \item[2018] Norouzifard, M., \textbf{Nemati, A.}, GholamHosseini, H., Klette, R., Nouri-Mahdavi, K., \& Yousefi, S. (2018, November). Automated glaucoma diagnosis using deep and transfer learning: Proposal of a system for clinical testing. In 2018 International Conference on Image and Vision Computing New Zealand (IVCNZ) (pp. 1-6). IEEE.    \hspace*{0pt}\hfill {\color{blue}\href{http://dx.doi.org/10.1109/IVCNZ.2018.8634671}{ Link}}
+    
+   \item[2018] \textbf{Nemati, A.}, (2018). Gender and Age Prediction Multilingual Author Profiles Based on Comments. \hspace*{0pt}\hfill {\color{blue}\href{http://ceur-ws.org/Vol-2266/T4-4.pdf}{ Link}}
+\end{enumerate}
+
+%----------------Posters ------------------
+\section{\textbf{POSTER}}
+\begin{enumerate}
+    \item[2022]  \textbf{Nemati, A.}, Khani, M.  Using document ranking to classify clinical trial eligibility criteria:\hspace*{0pt}\hfill {\color{blue}\href{https://drive.google.com/file/d/1_Gd3co8i-Me-anvFjnzNBqSyFvdQgESc/view?usp=sharing}{ Link}}
+       
+
+\end{enumerate}
+
+%----------------Teaching Assistant) Experience ------------------
+\section{\textbf{TEACHING ASSISTANT EXPERIENCE}}
+\resumeSubHeadingListStart
+
+       
+             \item {TCSS 545B- Database Management (Graduated Teaching Assistant): }\hspace*{0pt}\hfill{Spring 2019}
+       
+             \item {TCSS 559A- Web Services (Graduated Teaching Assistant):} \hspace*{0pt}\hfill{  Winter 2018}
+             
+      \resumeSubHeadingListEnd
+
+
+
+
+%--------Award------------
+\section{\textbf{ AWARDS}}
+
+\resumeSubHeadingListStart
+
+
+
+ \item {\textbf{ 2021 Best paper award in ISGV Auckland}}
+  \hspace*{0pt}\hfill {\href{https://doi.org/10.1007/978-981-13-9190-3_69}{ \color{blue} Link}}
+  
+  \item {\textbf{ 2021 Direct Funds \$ 1500:}{ A Comparison of Approaches for Synchronizing Events in Video Streams Using Audio.}}\hspace*{0pt}\hfill
+    {\color{blue}\href{https://link.springer.com/chapter/10.1007\%2F978-3-030-72073-5_20}{\color{blue} Link}}
+  %--------------- Award 3
+  \item{\textbf{ 2019 Outstanding Paper Awards}{ the International Computer Symposium (ICS), Yunlin, Taiwan}} 
+    \hspace*{0pt}\hfill {\color{blue}\href{https://static.wixstatic.com/media/db40d1_26c0561b41b34f4db3d36c0a54c91172~mv2_d_3264_2448_s_4_2.jpg}{ \color{blue}Link}}
+    %--------------- Award 2
+    \item{\textbf{ 2018 Certificate of the 9th International Cybersecurity Data Mining Competition}}\hspace*{0pt}\hfill
+    {\color{red}\href{https://static.wixstatic.com/media/db40d1_0071a864632b46a291aa9e570168510d~mv2.jpg}{ \color{blue}Link}}
+      
+      
+      
+      %--------------- Award 1
+      \item{\textbf{Volunteer appreciation Award from Impact NW (YMCA)}}\hspace*{0pt}\hfill{\color{blue}\href{https://static.wixstatic.com/media/db40d1_7962f9efd2fc46dc8061aff2dc661a02~mv2.jpeg}{ Link}}
+
+  \resumeSubHeadingListEnd
+
+ 
+
+
+
+%--------PROGRAMMING SKILLS------------
+\section{ \textbf{ PROGRAMMING SKILLS}}
+  \resumeSubHeadingListStart
+   \item{\textbf{Data Scientist }{: SAS and R programming }}
+  \item{\textbf{Machine Learning Techniques}{: Tesnforflow 2.x, PyTorch , Keras, Scikit learn , Ensemble traditional and pre-trained models and Transfer Learning,  LSTM and YOLO3}}
+    \item{\textbf{Natural language processing}{: Language model, Bert, N-gram, Sentiment analysis, TFIDF}}
+    \item{\textbf{Languages}{: Python 3.x Proficient, Java intermediate , C++ intermediate}}
+    \item{ \textbf{Datebase: }}{MySQL, PostgreSQL , Sql Server , BigQuery}
+    \item{\textbf{Data Visualization}{: Tableau,  ggplot2, MatplotLib, Seaborn}}
+      \item{\textbf{Big Data}{:  PySpark}}
+      
+      \item{\textbf{Cloud Technologies}{: AWS EC2, S3,  Google Colab, Google Compute, Google Big-Query }}
+      \item {\textbf{Others}{: GitHub, jira , Shiny app , The Internet of things}}
+
+  \resumeSubHeadingListEnd
+
+
+
+
+
+
+\end{document}
