@@ -1,14 +1,15 @@
 # Resume
 
 Preview
-![Resume Screenshot](/0001.jpg)
-
-![Resume Screenshot](/0002.jpg)
-
-![Resume Screenshot](/0003.jpg){widtt=45%}
-
-
 
   <center>
-<img src="0003.jpg" alt="Logistic regression app" width="45%"/>
+<img src="0001.jpg" alt="Resume Screenshot 1 " width="65%"/>
+</center>
+
+  <center>
+<img src="0002.jpg" alt="Resume Screenshot 2" width="65%"/>
+</center>
+
+  <center>
+<img src="0003.jpg" alt="Resume Screenshot 3" width="65%"/>
 </center>
